@@ -13,13 +13,13 @@ Por el momento, no se requiere ningún programa ni biblioteca adicional.
 Para lanzar el programa, basta con clonar este repositorio y ejecutar *sphere.py* junto con sus parámetros en la consola:
 
 ```
-./sphere.py NP F CR D MIN MAX N_GENERATIONS 
+python sphere.py NP F CR D MIN MAX N_GENERATIONS 
 ```
 
 Para obtener una descripción de los parámetros, puede utilizarse:
 
 ```
-./sphere.py --help
+python sphere.py --help
 ````
 
 ## Parámetros

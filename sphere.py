@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 import random
 import argparse
 
@@ -94,7 +92,7 @@ class DifferentialEvolution:
                 if trials[i].evaluate() <= population[i].evaluate():
                     population[i] = trials[i]
             
-            print("Generation ", generation + 1, " done")
+            print("Generation %d done" % (generation + 1))
             generation = generation + 1
         
         
@@ -128,8 +126,8 @@ def main():
     result = de.evolve(args.generations)
     
     # Print results
-    print("Best individual: \n", result)
-    print("Function value: \n", result.evaluate())
+    print("Best individual: %s" % result)
+    print("Function value: %f" % result.evaluate())
 
 if __name__ == "__main__":
     main()
