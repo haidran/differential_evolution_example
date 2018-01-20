@@ -4,7 +4,7 @@ Ejemplo de algoritmo evolutivo diferencial para la minimización de la función 
 
 ## Dependencias
 
-Para ejecutar el programa se debe disponer de **Python 3** en el sistema. Casi todos los sistemas operativos modernos incluyen este intérprete de código por defecto.
+Para ejecutar el programa se debe disponer de **Python** (2.x o 3.x) en el sistema. Casi todos los sistemas operativos modernos incluyen este intérprete de código por defecto.
 
 Por el momento, no se requiere ningún programa ni biblioteca adicional.
 
